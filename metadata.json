@@ -1,0 +1,6 @@
+{
+  "name": "CurrentCast",
+  "description": "Weather Report for Electricity & Blackouts - Real-time power outage forecasting, historical pattern caching, dead-zone warnings, and offline lifestyle guide.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

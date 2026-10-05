@@ -1,0 +1,269 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: #121820;
+  color: #F1F5F9;
+  overflow-x: hidden;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121820;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2E3A4B;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4285F4;
+}
+
+/* =========================================================================
+   LIGHT MODE (Crisp High-Legibility Daylight Theme)
+   ========================================================================= */
+.theme-light,
+.theme-light body {
+  background-color: #F3F6F9 !important;
+  color: #1E293B !important;
+}
+
+.theme-light ::-webkit-scrollbar-track {
+  background: #F3F6F9;
+}
+
+.theme-light ::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+}
+
+.theme-light ::-webkit-scrollbar-thumb:hover {
+  background: #4285F4;
+}
+
+/* Base card backgrounds */
+.theme-light .bg-\[\#121820\] {
+  background-color: #F8FAFC !important;
+}
+
+.theme-light .bg-\[\#1A222D\] {
+  background-color: #FFFFFF !important;
+}
+
+.theme-light .bg-\[\#222C3A\] {
+  background-color: #F1F5F9 !important;
+}
+
+.theme-light .bg-\[\#121820\]\/90 {
+  background-color: rgba(255, 255, 255, 0.94) !important;
+}
+
+.theme-light .bg-\[\#121820\]\/80 {
+  background-color: rgba(255, 255, 255, 0.92) !important;
+}
+
+.theme-light .bg-\[\#121820\]\/70 {
+  background-color: rgba(241, 245, 249, 0.85) !important;
+}
+
+.theme-light .bg-\[\#121820\]\/60 {
+  background-color: rgba(241, 245, 249, 0.85) !important;
+}
+
+.theme-light .bg-\[\#121820\]\/40 {
+  background-color: rgba(241, 245, 249, 0.6) !important;
+}
+
+.theme-light .bg-\[\#1A222D\]\/80 {
+  background-color: rgba(255, 255, 255, 0.92) !important;
+}
+
+.theme-light .bg-\[\#1A222D\]\/60 {
+  background-color: rgba(248, 250, 252, 0.85) !important;
+}
+
+/* Status Alert & Risk Backgrounds in Light Mode */
+.theme-light .bg-\[\#310A0A\] {
+  background-color: #FEF2F2 !important;
+  border-color: #FCA5A5 !important;
+}
+
+.theme-light .bg-\[\#400E0E\] {
+  background-color: #FEE2E2 !important;
+}
+
+.theme-light .bg-\[\#2A1E0B\] {
+  background-color: #FFFBEB !important;
+  border-color: #FDE68A !important;
+}
+
+.theme-light .bg-\[\#38280E\] {
+  background-color: #FEF3C7 !important;
+}
+
+.theme-light .bg-\[\#2A200F\] {
+  background-color: #FEF9C3 !important;
+  border-color: #FDE047 !important;
+}
+
+.theme-light .bg-\[\#0E2419\] {
+  background-color: #F0FDF4 !important;
+  border-color: #86EFAC !important;
+}
+
+.theme-light .bg-\[\#143323\] {
+  background-color: #DCFCE7 !important;
+}
+
+/* Hero Weather Sky Banner in Light Mode */
+.theme-light .hero-sky-outage {
+  background: linear-gradient(180deg, #FEE2E2 0%, #FEF2F2 60%, #FFFFFF 100%) !important;
+}
+
+.theme-light .hero-sky-storm {
+  background: linear-gradient(180deg, #FEF3C7 0%, #FFFBEB 60%, #FFFFFF 100%) !important;
+}
+
+.theme-light .hero-sky-day {
+  background: linear-gradient(180deg, #BAE6FD 0%, #E0F2FE 60%, #FFFFFF 100%) !important;
+}
+
+.theme-light .hero-sky-night {
+  background: linear-gradient(180deg, #334155 0%, #475569 60%, #F8FAFC 100%) !important;
+}
+
+.theme-light .hero-landscape-hill-1 {
+  fill: #E2E8F0 !important;
+}
+
+.theme-light .hero-landscape-hill-2 {
+  fill: #CBD5E1 !important;
+}
+
+.theme-light .hero-floating-pill {
+  background-color: rgba(255, 255, 255, 0.92) !important;
+  border-color: #E2E8F0 !important;
+  color: #0F172A !important;
+}
+
+/* Borders */
+.theme-light .border-\[\#2E3A4B\] {
+  border-color: #E2E8F0 !important;
+}
+
+.theme-light .border-\[\#2E3A4B\]\/60 {
+  border-color: #E2E8F0 !important;
+}
+
+.theme-light .border-\[\#2E3A4B\]\/40 {
+  border-color: #EEF2F6 !important;
+}
+
+.theme-light .border-\[\#2E3A4B\]\/30 {
+  border-color: #F1F5F9 !important;
+}
+
+/* Typography in Light Mode */
+.theme-light .text-white {
+  color: #0F172A !important;
+}
+
+.theme-light .text-slate-100 {
+  color: #1E293B !important;
+}
+
+.theme-light .text-slate-200 {
+  color: #334155 !important;
+}
+
+.theme-light .text-slate-300 {
+  color: #475569 !important;
+}
+
+.theme-light .text-slate-400 {
+  color: #64748B !important;
+}
+
+/* Preserve bright text inside colorful buttons/badges */
+.theme-light button.bg-\[\#4285F4\],
+.theme-light button.bg-\[\#34A853\],
+.theme-light button.bg-\[\#EA4335\],
+.theme-light .bg-\[\#4285F4\] > span,
+.theme-light .bg-\[\#34A853\] > span,
+.theme-light .bg-\[\#EA4335\] > span,
+.theme-light .bg-\[\#4285F4\] .text-white,
+.theme-light .bg-\[\#34A853\] .text-white,
+.theme-light .bg-\[\#EA4335\] .text-white,
+.theme-light .text-white.keep-white {
+  color: #FFFFFF !important;
+}
+
+/* Inputs in Light Mode */
+.theme-light input,
+.theme-light textarea,
+.theme-light select {
+  background-color: #F8FAFC !important;
+  color: #0F172A !important;
+  border-color: #CBD5E1 !important;
+}
+
+.theme-light input::placeholder,
+.theme-light textarea::placeholder {
+  color: #94A3B8 !important;
+}
+
+/* Modals & Dropdowns shadow */
+.theme-light .shadow-2xl,
+.theme-light .shadow-lg,
+.theme-light .shadow-md {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04) !important;
+}
+
+/* =========================================================================
+   AMOLED BATTERY SAVER MODE (Pure Black #000000 for 0-Watt OLED Pixels)
+   ========================================================================= */
+.theme-amoled,
+.theme-amoled body {
+  background-color: #000000 !important;
+  color: #F8FAFC !important;
+}
+
+.theme-amoled ::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+.theme-amoled ::-webkit-scrollbar-thumb {
+  background: #1A222D;
+}
+
+.theme-amoled .bg-\[\#121820\] {
+  background-color: #000000 !important;
+}
+
+.theme-amoled .bg-\[\#1A222D\] {
+  background-color: #070A0E !important;
+}
+
+.theme-amoled .bg-\[\#222C3A\] {
+  background-color: #0E131A !important;
+}
+
+.theme-amoled .border-\[\#2E3A4B\] {
+  border-color: #192230 !important;
+}
+
+.theme-amoled .border-\[\#2E3A4B\]\/60 {
+  border-color: #141B26 !important;
+}
+
+.theme-amoled .bg-\[\#121820\]\/90 {
+  background-color: rgba(0, 0, 0, 0.96) !important;
+}
+
