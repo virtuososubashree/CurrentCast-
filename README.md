@@ -15,7 +15,9 @@ Tech Stack
 
 UI/UX Design and Frontend Prototyping: Nano Banana
 Programming and Development Workflow: Google AI Studio (Gemini)
-Underlying Code Stack: JavaScript and Python 
+Underlying Code Stack: Typescript, HTML and CSS 
+
+link of the prototype:https://currentcast.ai.studio/
 
 
 Copyright (c) 2026 Subashree S. All Rights Reserved. This project and its source code are not licensed for unauthorized copying, distribution, or modification.
